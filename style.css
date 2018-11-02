@@ -1,0 +1,47 @@
+body {
+    background: #474760;
+}
+
+#ls-container {
+    font-family: Helvetice, Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px 12px;
+}
+
+@media screen and (max-width: 520px) {
+    #ls-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.event-container {
+    display: grid;
+    -ms-grid-template-columns: 25px 1fr;
+    grid-template-columns: 25px 1fr;
+}
+
+.event-icon-container {
+    padding-top: 4px;
+}
+
+.event-icon-container>img {
+    width: 70%;
+}
+
+.event-dates-container {
+    padding: 4px 0;
+}
+
+.event-date {
+    font-weight: 600;
+}
+
+.event-time {
+    color: #f60;
+}
+
+.event-lineup {
+    font-weight: 300;
+}
